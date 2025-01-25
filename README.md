@@ -36,3 +36,17 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The average-case time complexity of insertion sort is $\Theta(n^2)$.
+
+I came to this conclusion by finding the average of the best and worst cases: (n + n^2)/2 = 1/2 * n + 1/2 * n^2.
+
+This then led to: $\Theta(1/2 * n^2)$ = $\Theta(n^2)$.
+
+I recieved help from Ali during lab.  I did not know where to start, so he helped me find the solution.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models.  All of the work is my own, except where stated otherwise.  I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+-----
+
+I submitted this assignment last semester.
